@@ -360,7 +360,7 @@ input_dwelling_type_val = dwelling_type_dict.get(input_dwelling_type_key)
 st.write("""
 ## Income
 """)
-input_income = np.int(st.text_input('Enter your income (in USD)',0))
+input_income = np.int64(st.text_input('Enter your income (in USD)',0))
 
 # Employment status dropdown
 st.write("""
