@@ -487,7 +487,7 @@ lottie_loading_an = load_lottieurl(
 def make_prediction():
     # connect to s3 bucket with the access and secret access key
     client = boto3.client(
-        's3', aws_access_key_id=st.secrets["access_key"], aws_secret_access_key=st.secrets["secret_access_key"])
+        's3', aws_access_key_id=st.secrets["AKIAXYKJVPJKD234BOVI"], aws_secret_access_key=st.secrets["phZxN6ZxUOLoRrEy9J77f5PxWUEIOsDWzsTmEYY"])
 
     bucket_name = "tbcreditcardapproval"
     key = "gradient_boosting_model.sav"
