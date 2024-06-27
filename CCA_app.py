@@ -475,7 +475,7 @@ profile_to_pred_prep = train_copy_with_profile_to_pred_prep[train_copy_with_prof
 #@st.experimental_memo
 #def load_lottieurl(url: str):
     #r = requests.get(url)
-    i#f r.status_code != 200:
+    #f r.status_code != 200:
         #return None
     #return r.json()
 
