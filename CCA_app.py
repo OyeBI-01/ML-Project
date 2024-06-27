@@ -480,8 +480,7 @@ profile_to_pred_prep = train_copy_with_profile_to_pred_prep[train_copy_with_prof
     #return r.json()
 
 
-#lottie_loading_an = load_lottieurl(
-    'https://assets3.lottiefiles.com/packages/lf20_szlepvdh.json')
+#lottie_loading_an = load_lottieurl('https://assets3.lottiefiles.com/packages/lf20_szlepvdh.json')
 
 
 def make_prediction():
