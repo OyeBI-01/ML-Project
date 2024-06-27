@@ -472,15 +472,15 @@ profile_to_pred_prep = train_copy_with_profile_to_pred_prep[train_copy_with_prof
 
 
 #Animation function
-@st.experimental_memo
-def load_lottieurl(url: str):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
+#@st.experimental_memo
+#def load_lottieurl(url: str):
+    #r = requests.get(url)
+    i#f r.status_code != 200:
+        #return None
+    #return r.json()
 
 
-lottie_loading_an = load_lottieurl(
+#lottie_loading_an = load_lottieurl(
     'https://assets3.lottiefiles.com/packages/lf20_szlepvdh.json')
 
 
