@@ -77,7 +77,7 @@ class OutlierRemover(BaseEstimator, TransformerMixin):
 
 
 class DropFeatures(BaseEstimator, TransformerMixin):
-    def __init__(self, feature_to_drop=['ID', 'Has a mobile phone', 'Children count', 'Job title', 'Account age']):
+    def __init__(self, feature_to_drop=['Has a mobile phone', 'Children count', 'Job title', 'Account age']):
         self.feature_to_drop = feature_to_drop
 
     def fit(self, df):
