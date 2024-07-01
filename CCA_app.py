@@ -103,8 +103,7 @@ class TimeConversionHandler(BaseEstimator, TransformerMixin):
     def transform(self, X, y=None):
         if (set(self.feat_with_days).issubset(X.columns)):
             # convert days to absolute value using NumPy
-            X[['Employment length', 'Age']] = np.abs(
-                X[['Employment length', 'Age']])
+            X[['Employment length', 'Age']] = np.abs( X[['Employment length', 'Age']])
             return X
         else:
             print("One or more features are not in the dataframe")
