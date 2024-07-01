@@ -16,6 +16,9 @@ import json
 import requests
 from streamlit_lottie import st_lottie_spinner
 
+
+pd.options.mode.chained_assignment = None  # default='warn'
+
 train_original = pd.read_csv('https://raw.githubusercontent.com/semasuka/Credit-card-approval-prediction-classification/main/datasets/train.csv')
 
 test_original = pd.read_csv('https://raw.githubusercontent.com/semasuka/Credit-card-approval-prediction-classification/main/datasets/test.csv')
